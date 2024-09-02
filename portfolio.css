@@ -1,0 +1,132 @@
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body { background-color:whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    
+}
+header{
+    background-color: rgba(219, 218, 218, 0.916);
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom:50px;
+    padding-top:50px;
+    font-size: 30px;
+}
+nav{
+    border: 1px dotted rgb(182, 182, 182);
+    
+
+}
+.ab{
+    font-size: 30px;
+    text-decoration: none;
+    color:rgba(128, 128, 128, 0.931);
+    
+   
+
+}
+.nirom{
+    margin:50px;
+}
+.about{
+    display:flex;
+    
+    padding-left: 300px;
+    padding-right: 300px;
+    
+    
+}
+.about1{
+    font-size: 50px;
+}
+.skills{
+    background-color:rgba(219, 218, 218, 0.916);
+    color:rgb(0, 0, 10);
+    padding:70px;
+    justify-content: center;
+}
+.skill{
+    margin-bottom:30px;
+}
+.skills p{
+    text-align: left;
+}
+.wh{
+    padding-left: 90px;
+}
+.wh1{
+border-radius:5px;
+padding:10px;
+width:500px;
+background-color: rgba(255, 255, 255, 0.839);
+margin-bottom: 40px;
+
+}
+
+.wh2{
+    border-radius:5px;
+    padding:10px;
+    width:500px;
+    background-color: rgba(255, 255, 255, 0.839);
+    margin-bottom: 40px;
+}
+.wh3{
+    border-radius:5px;
+    padding:10px;
+    width:500px;
+    background-color: rgba(255, 255, 255, 0.839);
+    margin-bottom: 40px;
+}
+.wh4{
+    border-radius:5px;
+    padding:10px;
+    width:500px;
+    background-color: rgba(255, 255, 255, 0.839);
+    margin-bottom: 40px;
+}
+.project1{
+    margin:40px;
+}
+.project{
+    display: flex;
+     flex-wrap: wrap; 
+      height: 10px;
+      align-items: center;
+      margin: 100px;
+      justify-content:space-between;
+      grid-template-columns: repeat ;
+      
+}
+.form{
+    background-color:rgba(219, 218, 218, 0.916);
+    color:rgb(0, 0, 10);
+    padding: 50px;  
+    margin: 40px;
+}
+.register{
+border-radius: 15px;
+   padding:20px;
+   margin:50px;
+}
+.myself{
+display: flex;
+background-color: black;
+text-align: left;
+color: aliceblue;
+padding:40px;
+}
+.contact{
+    font-size: 40px;
+}
+.contact1{
+   font-size: 40px;
+}
+
+
+

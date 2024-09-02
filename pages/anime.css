@@ -1,0 +1,25 @@
+h1{
+    font-size:80px;
+    color:rgb(57, 29, 86);
+    background : rgb(133, 9, 228);
+ }
+ strong{
+     font-size: 40px;
+     color:purple;
+     margin:opx auto;
+ }
+nav{
+    font-weight:bolder;
+    
+}
+img{
+    width:300px;
+    margin:opx auto;
+}
+body{
+    background-color: rgb(15, 15, 15);
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blueviolet
+}
