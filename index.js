@@ -1,66 +1,64 @@
-let principle=10000;
-let rate=5;
-let time=3;
-console.log((principle*rate*time)/100);
+// let marks=70;
+// let grade;
+// // if(marks<45){
+// //   console.log("fail")
+// // }else{
+// //   console.log("pass")
+// // }
+// if(marks>60){
+//   console.log("firs tclass")
+//   grade="A"
+// }else if(marks>45){
+//   console.log("second class")
+//   grade="B"
+// }else{
+//   console.log("fail")
+//   grade="no grade"
+// }
+
+// let day = 4;
+// switch (day) {
+//     case 1:
+//         console.log("Today is Monday");
+//         // break;
+//     case 2:
+//         console.log("Today is Tuesday");
+//         // break;
+//     case 3:
+//         console.log("Today is Wednesday");
+//         // break;
+//     case 4:
+//         console.log("Today is Thursday");
+//         // break;
+//     case 5:
+//         console.log("Today is Friday");
+//         // break;
+//     case 6:
+//         console.log("Today is Saturday");
+//         // break;
+//     case 7:
+//         console.log("Today is Sunday");
+//         // break;
+//     default:
+//         console.log("Invalid day");
+//         // break;
+// }
+
+// let trafficLight = "red";
+// let message = ""
  
-let r=14;
-let pi=3.14159;
-console.log(pi*r**2);
-
-let a=150;
-let b=200;
-let c=a;
-a=b;
-b=c;
-console.log(a,b);
-
-let std1=85;
-let std2=90;
-let std3=95;
-console.log(std1+std2+std3/3);
-
-let p=5000;
- r=6;
- let t=4;
- console.log(p*(1+r/100)^t-p);
-
- let cp=800;
- let sp=950;
- console.log(sp-cp);
-
- let length=50;
- let width=30;
- console.log(2*(length+width));
-
- let x=25;
- let y=19;
- console.log(x&y);
-
- let celsius=22;
- console.log(celsius*9/5);
-
- r=5;
- let h=10;
- console.log(pi*r**2*h);
-
- let char = 'A';
-
-if (char === 'a') {
-  console.log('The character is a.');
-} else if (char === 'b') {
-  console.log('The character is b.');
-} else {
-  console.log('The character is something else.');
-}
-const value = null;
-
-if (value) {
-    console.log("Value is truthy.");
-} else {
-    console.log("Value is falsy.");
-}
-
-if(isEven(2)){console.log("even")}
-else{console.log("not even")}
-if(isEven(5)){console.log("even")} 
-else{console.log("not even")}
+// switch (trafficLight) {
+//     case "red":
+//         message = "Stop immediately.";
+//         // break;
+//     case "yellow":
+//         message = "Prepare to stop.";
+//         // break;
+//     case "green":
+//         message = "Proceed or continue driving.";
+//         // break;
+//     default:
+//         message = "Invalid traffic light color.";
+// }
+ 
+// console.log(message);
