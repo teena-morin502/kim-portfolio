@@ -1,7 +1,8 @@
 h1{
-    font-size:80px;
-    color:rgb(57, 29, 86);
-    background : rgb(133, 9, 228);
+    font-size:120px;
+    color:rgb(136, 6, 136);
+    text-align: center;
+    
  }
  strong{
      font-size: 40px;
@@ -14,12 +15,24 @@ nav{
 }
 img{
     width:300px;
-    margin:opx auto;
+    margin:10px;
+    border-radius: 15px;
 }
 body{
-    background-color: rgb(15, 15, 15);
+    background-color:pink;
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:blueviolet
+    color:blueviolet;
+    text-shadow: 3px rgb(117, 11, 216);
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:rgb(25, 4, 54);
+    font-size: 30px;
+}
+a:hover{
+    color:purple;
+
 }
