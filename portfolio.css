@@ -88,6 +88,7 @@ nav{
 .about1{
     font-size: 50px;
 }
+
 .skills{
     background-color:rgba(219, 218, 218, 0.916);
     color:rgb(0, 0, 10);
@@ -98,7 +99,7 @@ nav{
     margin-bottom:30px;
 }
 .skills p{
-    text-align: left;
+    text-align: left; 
 }
 .wh{
     display: flex;
@@ -132,15 +133,8 @@ margin-bottom: 40px;
     justify-content: center;
     
 }
-/* .gap .image-link{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    max-width: 200px;
-}
-.gap .image-link a{
-    max-width: 350px;
-    line-height: 150px;
-} */
+
+
 
 .project{  
       align-items: center;
@@ -180,6 +174,3 @@ padding:40px;
    font-size: 40px;
 
 }
-
-
-
