@@ -70,24 +70,29 @@ nav{
     margin-right: 25px;
     
 }
+
+
+
 .nirom{
     margin:50px;
+
 }
 .about{
-    display:flex;
-    margin: 0% auto;
-    margin-left: 15%;
-    margin-right: 15%;
-   padding-left: 20px;
-   padding-right: 20px;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin:20px
+   
+   
 }
-.about p{
-    justify-content: space-around;
-    align-items: center;
-}
+
 .about1{
     font-size: 50px;
+    border-radius: 8px;
 }
+
+
+
+
 
 .skills{
     background-color:rgba(219, 218, 218, 0.916);
@@ -99,7 +104,8 @@ nav{
     margin-bottom:30px;
 }
 .skills p{
-    text-align: left; 
+    text-align: left;
+    font-weight: bold;
 }
 .wh{
     display: flex;
@@ -109,21 +115,48 @@ nav{
 
 .wh0{
 border-radius:5px;
-padding:10px;
+height:40px;
 width:500px;
 background-color: rgba(255, 255, 255, 0.839);
 margin-bottom: 40px;
+color:rgb(254, 254, 254);
 
 }
 
+.wh1{
+    border-radius:5px;
+    padding:10px;
+    width:80%;
+    background-color: rgb(6, 0, 0);
+    margin-bottom: 40px;
+    text-align: end;
+    }
+.wh2{
+    border-radius:5px;
+    padding:10px;
+    width:70%;
+    background-color: rgb(6, 0, 0);
+    margin-bottom: 40px;
+    text-align: end;
+    }
+.wh3{
+    border-radius:5px;
+    padding:10px;
+    width:90%;
+    background-color: rgb(6, 0, 0);
+    margin-bottom: 40px;
+    text-align: end;
+     }
+.wh4{
+    border-radius:5px;
+    padding:10px;
+    width:80%;
+    background-color: rgb(6, 0, 0);
+    margin-bottom: 40px;
+    text-align: end;
+    }
 
-.project1{
-    margin:0 auto;
-    /* display: flex;
-    justify-content: space-around; */
-    
-    
-}
+
 
 .gap{
     display: flex;
@@ -135,11 +168,21 @@ margin-bottom: 40px;
 }
 
 
-
 .project{  
       align-items: center;
       margin: 100px      
 }
+.low{
+    margin:10px;
+    border-radius: 5px;
+    
+    
+    
+    
+}
+
+
+
 
 
 .form{
@@ -149,17 +192,28 @@ margin-bottom: 40px;
     margin: 30px;
     
 }
-
-.register{
-   border: 3px solid rgba(0, 0, 0, 0.503);
-   box-shadow: 3px 2px rgb(53, 52, 52);
-   font-size: 40px;
-   text-decoration: none;
-   color:rgb(0, 0, 0);
+.reg{
+    margin:20px;
 }
+.register{
+   border: 3px solid black;
+   box-shadow: 3px 4px 2px rgb(49, 49, 49);
+   font-size: 30px;
+   text-decoration: none;
+   color:rgb(172, 172, 172);
+   background-color: black;
+   padding:5px;
+}
+
 .register:hover{
    background-color: rgb(166, 166, 165);
+   color:black;
 }
+
+
+
+
+
 .myself{
 display: flex;
 background-color: black;
@@ -169,8 +223,26 @@ padding:40px;
 }
 .contact{
     font-size: 40px;
+    
 }
 .contact1{
    font-size: 40px;
+   
+   margin-top:50px;
+}
+.contact2{
+    display: flex;
+    gap:100px;
+    margin:50px;
+    flex:wrap;
 
 }
+.bar{
+    border: 2px dashed white ;
+    width:290px;
+    
+}
+
+
+
+
