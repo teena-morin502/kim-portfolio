@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: rgb(12, 19, 67);
   }
   form {
     max-width: 600px;
@@ -8,6 +9,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    background-color: rgb(33, 33, 107);
   }
   ul {
     list-style-type: none;
@@ -20,6 +22,7 @@ body {
     display: inline-block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: rgb(174, 212, 245);
   }
   input[type="text"],
   input[type="number"],
@@ -44,4 +47,11 @@ body {
   }
   button[type="submit"] {
     margin-right: 10px;
+  }
+  .reg{
+    color:rgb(70, 132, 225);
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin:20px;
   }

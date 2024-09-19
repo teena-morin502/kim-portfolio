@@ -5,20 +5,23 @@
 }
 body { background-color:whitesmoke;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:black;
     
 }
+
+
 .topic{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     display: flex;
-    justify-content: center;
 }
 .side-way{
-   border:4px solid black;
+   border:4px solid rgba(0, 0, 0, 0.68);
    width:3px;
    height: 6px;
    padding:4px;
-   background-color: rgba(0, 0, 0, 0.505);
+   background-color: black;
    
 }
 .header{
@@ -80,9 +83,12 @@ nav{
 .about{
     display: grid;
    grid-template-columns: 1fr 1fr;
-   margin:20px
-   
-   
+   margin:20px;
+   display: flex;
+   margin:70px;
+   margin-right: 300px;
+margin-left: 250px;
+   gap:10px;
 }
 
 .about1{
@@ -100,16 +106,17 @@ nav{
     padding:70px;
     justify-content: center;
 }
-.skill{
+.topics{
     margin-bottom:30px;
+    display: flex;
+    justify-content: center;
 }
 .skills p{
     text-align: left;
     font-weight: bold;
 }
 .wh{
-    display: flex;
-    flex-direction: column;
+    display:grid;
     justify-content: center;
 }
 
@@ -121,6 +128,7 @@ background-color: rgba(255, 255, 255, 0.839);
 margin-bottom: 40px;
 color:rgb(254, 254, 254);
 
+   
 }
 
 .wh1{
@@ -158,7 +166,11 @@ color:rgb(254, 254, 254);
 
 
 
-.gap{
+
+
+
+
+    .gap{
     display: flex;
     flex-wrap: wrap;
     gap:15px;
@@ -166,8 +178,6 @@ color:rgb(254, 254, 254);
     justify-content: center;
     
 }
-
-
 .project{  
       align-items: center;
       margin: 100px      
@@ -193,7 +203,7 @@ color:rgb(254, 254, 254);
     
 }
 .reg{
-    margin:20px;
+    margin:50px;
 }
 .register{
    border: 3px solid black;
