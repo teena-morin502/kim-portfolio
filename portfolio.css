@@ -29,7 +29,7 @@ a{
 
 
 
-    
+
 
 
 .topic{
@@ -45,6 +45,10 @@ a{
    background-color: black;
    
 }
+
+
+
+
 .header{
     background-color: rgba(219, 218, 218, 0.916);
     display: flex;
@@ -74,6 +78,10 @@ font-size: 30px;
 margin:10px;
 text-align: left;
 }
+
+
+
+
 nav{
     border: 1px dotted rgb(182, 182, 182);
     padding:30px;
@@ -99,7 +107,10 @@ nav{
 
 .nirom{
     margin:50px;
-
+    height:800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .about{
     display: grid;
@@ -125,7 +136,11 @@ margin-left: 250px;
     background-color:rgba(219, 218, 218, 0.916);
     color:rgb(0, 0, 10);
     padding:70px;
+    height:700px;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
+    
 }
 .topics{
     margin-bottom:30px;
@@ -191,17 +206,23 @@ color:rgb(254, 254, 254);
 
 
 
-    .gap{
+
+.project{  
+      
+      margin: 100px;
+      height:1200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+         
+}
+.gap{
     display: flex;
     flex-wrap: wrap;
     gap:15px;
     margin:40px;
     justify-content: center;
     
-}
-.project{  
-      align-items: center;
-      margin: 100px      
 }
 .low{
     margin:10px;
@@ -251,6 +272,11 @@ background-color: black;
 text-align: left;
 color: aliceblue;
 padding:40px;
+height:500px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+    
 }
 .contact{
     font-size: 40px;
