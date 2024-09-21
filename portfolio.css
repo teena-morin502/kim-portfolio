@@ -11,6 +11,27 @@ body { background-color:whitesmoke;
 }
 
 
+
+a{
+    font-weight: bolder;
+    text-align: center;
+   }
+   h2{
+   font-weight: bolder;
+   color:black;
+   font-size: 70px;
+   text-align: center;
+  }
+  p{
+    font-size: 25px;
+    margin:10px;
+    }
+
+
+
+    
+
+
 .topic{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -86,7 +107,7 @@ nav{
    margin:20px;
    display: flex;
    margin:70px;
-   margin-right: 300px;
+   margin-right: 200px;
 margin-left: 250px;
    gap:10px;
 }
@@ -184,7 +205,7 @@ color:rgb(254, 254, 254);
 }
 .low{
     margin:10px;
-    border-radius: 5px;
+    border-radius: 10px;
     
     
     
