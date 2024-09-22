@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+/* Element Selector */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+/* Class Selector */
+.inline-style {
+  color: #f4f3f4;
+  font-weight: bold;
+}
+.menu {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.dish {
+  line-height: 20px;
+  height: fit-content;
+}
+.dish img {
+  height: fit-content;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.dish h3 {
+  margin-bottom: 10px;
+}
+/* ID Selector */
+#intro {
+  font-weight: bold;
+}
+/* Descendant Selector */
+.contact-info li {
+  text-decoration: none;
+}
+/* Class Selector for Box Model */
+.box-model-example {
+  width: 300px;
+  margin: auto;
+  border: 1px solid #DDDDDD;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #F9F9F9;
+}
+/* Footer Styles */
+.footer {
+  background-color: #FF6347;
+  padding: 20px;
+  color: white;
+  margin-top: 70px;
+}
+.footer h2 {
+  /* Space below the heading */
+  /* Font size for the heading */
+  margin-bottom: 20px;
+}
+.contact-info {
+  /* Remove bullet points */
+  list-style-type: none;
+
+  
+  
+}
+.contact-info li {
+  /* Space between each contact item */
+  /* Font size for contact information */
+  line-height: 40px;
+}
