@@ -3,6 +3,9 @@
     padding:0px;
     margin:0px;
 }
+.logo{
+    border-radius: 10px;
+}
 body { background-color:whitesmoke;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
