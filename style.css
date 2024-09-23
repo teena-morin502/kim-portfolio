@@ -84,7 +84,8 @@ text-align: left;
 
 
 
-nav{
+.nav{
+    
     border: 1px dotted rgb(182, 182, 182);
     padding:30px;
     text-align: right ;
@@ -92,7 +93,8 @@ nav{
     text-shadow: 2px 1px black;
     background-color:whitesmoke;
     padding-right: 40px;
-
+    position: sticky;
+    top:0;
     
 }
 .ab:hover{
@@ -104,8 +106,7 @@ nav{
     color:rgba(128, 128, 128, 0.931);
     text-align: left;
     margin-right: 25px;
-   position: sticky;
-   top:0;
+  
     
 }
 
