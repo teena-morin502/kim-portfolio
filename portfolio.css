@@ -232,10 +232,10 @@ color:rgb(254, 254, 254);
 .low{
     margin:10px;
     border-radius: 10px;
-    
-    
-    
-    
+}
+.low:hover{
+    transition: 0.5;
+    scale:1.5;
 }
 
 
