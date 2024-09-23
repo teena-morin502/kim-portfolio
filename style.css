@@ -7,7 +7,7 @@
 body { background-color:whitesmoke;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:blackgit ;
+    
     
 }
 
@@ -103,7 +103,8 @@ nav{
     color:rgba(128, 128, 128, 0.931);
     text-align: left;
     margin-right: 25px;
-   
+   position: sticky;
+   top:0;
     
 }
 
