@@ -114,7 +114,7 @@ text-align: left;
 
 .nirom{
     margin:50px;
-    height:800px;
+    height:900px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +144,7 @@ margin-left: 250px;
     background-color:rgba(219, 218, 218, 0.916);
     color:rgb(0, 0, 10);
     padding:70px;
-    height:700px;
+    height:800px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -218,7 +218,7 @@ color:rgb(254, 254, 254);
 .project{  
       
       margin: 100px;
-      height:1300px;
+      height:1900px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -240,8 +240,7 @@ color:rgb(254, 254, 254);
 }
 
 .low:hover{
-
-    transition: scale(1.5);
+transition: scale(1.5);
     
 }
 
@@ -284,7 +283,7 @@ background-color: black;
 text-align: left;
 color: aliceblue;
 padding:40px;
-height:400px;
+height:650px;
 display:flex;
 flex-direction: column;
 justify-content: center;
