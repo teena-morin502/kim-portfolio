@@ -7,8 +7,6 @@
 body { background-color:whitesmoke;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
 }
 
 
@@ -85,7 +83,6 @@ text-align: left;
 
 
 .nav{
-    
     border: 1px dotted rgb(182, 182, 182);
     padding:30px;
     text-align: right ;
@@ -106,8 +103,6 @@ text-align: left;
     color:rgba(128, 128, 128, 0.931);
     text-align: left;
     margin-right: 25px;
-  
-    
 }
 
 
@@ -121,13 +116,13 @@ text-align: left;
 
 }
 .about{
-    display: grid;
+   display: grid;
    grid-template-columns: 1fr 1fr;
    margin:20px;
    display: flex;
    margin:70px;
    margin-right: 200px;
-margin-left: 250px;
+   margin-left: 250px;
    gap:10px;
 }
 
@@ -171,8 +166,6 @@ width:500px;
 background-color: rgba(255, 255, 255, 0.839);
 margin-bottom: 40px;
 color:rgb(254, 254, 254);
-
-   
 }
 
 .wh1{
@@ -210,8 +203,8 @@ color:rgb(254, 254, 254);
 
 .project{  
       
-      margin: 100px;
-      height:1900px;
+    margin: 100px;
+    height:1900px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -233,8 +226,8 @@ color:rgb(254, 254, 254);
 }
 
 .low:hover{
-transition: 0.5;
-scale: 0.8;
+   transition: 0.5;
+   scale: 0.8;
     
 }
 
@@ -272,15 +265,15 @@ scale: 0.8;
 
 
 .myself{
-display: flex;
-background-color: black;
-text-align: left;
-color: aliceblue;
-padding:40px;
-height:650px;
-display:flex;
-flex-direction: column;
-justify-content: center;
+    display: flex;
+    background-color: black;
+    text-align: left;
+    color: aliceblue;
+    padding:40px;
+    height:650px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 .contact{
