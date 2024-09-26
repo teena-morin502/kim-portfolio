@@ -282,7 +282,7 @@ color:rgb(254, 254, 254);
     
 }
 .contact{
-    font-size: 40px;
+    font-size: 50px;
     
 }
 .contact1{
@@ -295,11 +295,11 @@ color:rgb(254, 254, 254);
     gap:100px;
     margin:50px;
     flex:wrap;
-
+    font-size: 30px;
 }
 .bar{
     border: 2px dashed white ;
-    width:290px;
+    width:360px;
     
 }
 
